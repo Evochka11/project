@@ -1,0 +1,14 @@
+arr = list()
+n = int(input(&quot;Enter number of elements: &quot;))
+print(&quot;Enter elements:&quot;)
+i = 0
+while (i &lt; n):
+  tmp = int(input(&quot;&quot;))
+  arr.append(tmp)
+  i += 1
+print(&quot;Array:&quot;)
+i = 0
+while (i &lt; n):
+  print(arr[i], end = &quot; &quot;)
+  i += 1
+print(&quot;&quot;)
